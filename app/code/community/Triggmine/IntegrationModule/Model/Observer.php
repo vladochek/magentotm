@@ -1,12 +1,17 @@
-<?php
+ <?php
 class Triggmine_IntegrationModule_Model_Observer
 {
 
 			public function onCartItemAdded(Varien_Event_Observer $observer)
 			{
 				//Mage::dispatchEvent('admin_session_user_login_success', array('user'=>$user));
-				//$user = $observer->getEvent()->getUser();
+		/*		$user = $observer->getEvent()->getUser();
 				//$user->doSomething();
+				echo '<pre>';
+				var_dump($user);
+				echo '</pre>';
+				die('dead');*/
+
 			}
 		
 			public function onCartItemDeleted(Varien_Event_Observer $observer)
